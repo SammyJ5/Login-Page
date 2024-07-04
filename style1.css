@@ -1,0 +1,59 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.page-header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #800080;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    box-decoration-break: clone;
+    color: #ffffff; 
+    text-size-adjust: auto;
+    text-align: center;
+}
+
+.p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.pt-3{
+    object-position: center;
+}
+form {
+    max-width: 600px;
+    margin: 0px;
+    display:flexbox;
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+}
+input:focus {
+    background-color: lightblue;
+}
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.form-group {
+    margin-bottom: 15px;
+}
